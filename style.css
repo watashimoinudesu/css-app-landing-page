@@ -14,6 +14,7 @@
     border-radius: 10px;
     padding: 24px;
     font-size: 2rem;
+    height: 40px;
 }
 
 .Herosection {
@@ -52,7 +53,9 @@
 }
 
 .applink {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     background-color: lightgray;
     color: #5E44FF;
     border-radius: 20px;
@@ -60,6 +63,12 @@
     border: 1px solid lightgray;
     font-weight: bold;
     font-size: 16px;
+}
+
+.rainbow-icon-small {
+    display: inline-block;
+    flex-shrink: 0;
+    vertical-align: middle;
 }
 
 
