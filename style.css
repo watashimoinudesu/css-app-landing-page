@@ -1,4 +1,80 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+.Navbar {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: groove;
+    border-radius: 10px;
+    padding: 24px;
+    font-size: 2rem;
+    height: 40px;
+}
+
+.Herosection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:60px;
+    
+}
+
+.freetrialbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freetrialbutton button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.purple-text {
+    color: #5E44FF;
+    margin: 0;   
+}
+
+#Advertise {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.applink {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: lightgray;
+    color: #5E44FF;
+    border-radius: 20px;
+    padding: 8px 16px;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rainbow-icon-small {
+    display: inline-block;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+
+
+
+
 * {
     font-family: 'Inter', sans-serif;
 }
