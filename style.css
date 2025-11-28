@@ -1,1 +1,77 @@
 /* Start coding here */
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    margin: 40px 15px 0px 20px;
+    padding: 14px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.rocket-emoji {
+    width: 28px;
+    height: 28px;
+}
+
+.smile-emoji {
+    width: 26px;
+    height: 26px;
+}
+
+.graph-emoji {
+    width: 28px;
+    height: 26px;
+}
+
+section {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.features-selection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 1201px;
+    height: 272px;
+}
+
+.features-selection-box1 {
+    background-color: #D7E5F6;
+    border-radius: 24px;
+    width: 387px;
+    height: 262px;
+}
+
+.features-selection-box2 {
+    background-color: #D8E0FC;
+    border-radius: 24px;
+    width: 387px;
+    height: 262px;
+}
+
+.features-selection-box3 {
+    background-color: #E8DCF6;
+    border-radius: 24px;
+    width: 387px;
+    height: 262px;
+}
+
+.features-selection-description {
+    color: #5F5F76;
+    font-size: 16px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+.features-selection-title {
+    font-size: 24px;
+    margin: 20px 20px 5px 20px;
+    font-weight: 600;
+}
